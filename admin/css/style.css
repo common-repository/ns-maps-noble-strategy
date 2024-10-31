@@ -1,0 +1,19 @@
+.addr{width: 50%;}
+.split6 {width:50%;float:left;}
+.clear {clear:both;}
+.pad15 {padding:15px;}
+.padr15 {padding-right:15px;}
+.padl15 {padding-left:15px;}
+#desc {height:120px;}
+h1.title {font-size:12px;text-transform: uppercase;margin:0;padding:0;line-height: 12px;font-weight: bold;color:#313033;}
+.marker_new label, .all_markers label {font-size:10px;text-transform: uppercase;color:#313033;}
+#ns_map_add_markers h2 span {text-transform: uppercase;}
+.all_markers input {width:100%;}
+.remove_marker {width:100%;background:#EA7900;color:white;border:0;text-transform: uppercase;font-weight: bold;border-radius:3px;padding:10px;margin-bottom:10px;}
+#add_marker {width:100%;background:#A8C611;color:white;border:0;text-transform: uppercase;font-weight: bold;border-radius:3px;padding:10px;margin-bottom:10px;}
+.save_marker {width:100%;background:#8CB219;color:white;border:0;text-transform: uppercase;font-weight: bold;border-radius:3px;padding:10px;margin-bottom:10px;}
+button {cursor:pointer;}
+@media (max-width:991px) {
+	.split6 {width:100%;float:none;}
+	.split6 .padr15, .split6 .padl15 {padding:0;}
+}
